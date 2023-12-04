@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Content from MongoDB</title>
+</head>
+<body>
+    <h1>Dynamic Content from MongoDB</h1>
+       
+        <li>Id   </li>
+        <li>Key    </li>
+        <li> Value  </li>
+
+
+
+    
+    <ol type = "1">      {% for items in   data %}
+            <li>{{ items   }}</li>
+
+        {% endfor %}
+
+    </ol>
+      
+   
+
+   
+</body>
+</html>
